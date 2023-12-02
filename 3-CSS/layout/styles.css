@@ -7,7 +7,7 @@
     background-color: lightgray;
     box-sizing: content-box;
 }
-
+​
 .box-border {
     width: 200px;
     height: 200px;
@@ -16,47 +16,49 @@
     background-color: lightblue;
     box-sizing: border-box;
 }
-
+​
 /* Display property */
 .block {
     display: block;
     background-color: lightcoral;
     width: 200px;
+    height: 100px;
     padding: 10px;
     margin-bottom: 10px
 }
-
+​
 .inline {
     display: inline;
     background-color: lightgreen;
-    width: 200px;
+    height: 100px;
     padding: 10px;
 }
-
+​
 .inline-block {
     display: inline-block;
     width: 200px;
     height: 100px;
     background-color: lightsalmon;
 }
-
+​
 /* Element Positioning */
 .static {
     position: static;
     background-color: lightseagreen;
     width: 200px;
     height: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
-
+​
 .relative {
     position: relative;
     background-color: chartreuse;
     width: 200px;
     height: 50px;
     left: 80px;
+    top: 0;
 }
-
+​
 .absolute {
     position: absolute;
     background-color: darkmagenta;
@@ -65,7 +67,7 @@
     top: 0;
     left: 80px;
 }
-
+​
 .fixed {
     position: fixed;
     background-color: lightpink;
@@ -74,7 +76,7 @@
     top: 0;
     right: 20px;
 }
-
+​
 .sticky {
     position: sticky;
     background-color: deeppink;
@@ -83,28 +85,28 @@
     top: 20px;
     left: 20px;
 }
-
+​
 .float-right {
     float: right;
     width: 200px;
     height: 200px;
     background-color: indianred;
 }
-
+​
 .float-left {
     float: left;
     width: 200px;
     height: 200px;
     background-color: goldenrod;
 }
-
+​
 .clear-floats {
     clear: both;
     background-color: yellowgreen;
     padding: 10px;
 }
-
-/* Centering Elements*/
+​
+/* Centering Elements */
 .parent-box {
     height: 200px;
     width: 300px;
@@ -113,18 +115,18 @@
     margin-bottom: 20px;
     background-color: aqua;
 }
-
-.center-horizontal{
+​
+.center-horizontal {
     padding: 20px;
     background-color: gray;
 }
-
+​
 .center-vertical {
     background-color: coral;
     display: flex;
     align-items: center;
 }
-
+​
 .center-horizontal-vertical {
     background-color: peru;
     display: flex;
